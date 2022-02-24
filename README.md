@@ -5,8 +5,8 @@ Just a quick Weather \ clock app (AR) Made in Tizen. I just wanted to test the S
 
 #Screenshots!
 
-<img src="https://github.com/Sal7one/Tizen-TV-Weather-And-Clock/blob/master/Screenshot.png" alt="feed example" width="250">
+<img src="https://github.com/Sal7one/Tizen-TV-Weather-And-Clock/blob/master/Screenshot.png" alt="feed example" >
 
-<img src="https://github.com/Sal7one/Tizen-TV-Weather-And-Clock/blob/master/fromtv.jpg" alt="feed example" width="250">
+<img src="https://github.com/Sal7one/Tizen-TV-Weather-And-Clock/blob/master/fromtv.jpg" alt="feed example" >
 
  
