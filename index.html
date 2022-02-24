@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Weather api by Saleh"/>
+
+    <title>برنامج الطقس من صالح</title>
+  <script src="js/feather.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+ 
+<!-- partial:index.partial.html -->
+<div class="city">
+
+  <div class="container">
+    <div class="weather-side">	
+      <div class="weather-gradient">
+      <p class="dateofdata"></p>
+
+      </div>
+      <div class="date-container">
+        <h2 class="date-dayname">Tuesday</h2><span class="date-day">24 feb 2022</span><i class="location-icon" data-feather="map-pin"></i><span class="location">Ryiadh, KSA</span>
+      </div>
+      <div class="weather-container"><i class="">
+
+      </i>
+        <h1 class="weather-temp">29°C</h1>
+        <h3 class="weather-desc">Sunny</h3>
+      </div>
+    </div>
+    <div class="info-side">
+      <div class="today-info-container">
+        <div class="today-info">
+          <div class="humidity"> <span class="title">الرطوبة</span><span id="humidity" class="value">0%</span>
+            <div class="clear"></div>
+          </div>
+          <div class="wind"> <span class="title">سرعة الرياح</span><span id="windSpeed"class="value">0 km/h</span>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="location-container" style="display: inline-block; height: fit-content; width: fit-content;">
+        <button id ="riyadh" class="location-button">  <span>الرياض </span> <span style="float: right; "> <i data-feather="map-pin"></i>1</span></button>
+        <button id ="khobar" class="location-button">  <span>الخبر </span> <span style="float: right; "> <i data-feather="map-pin"></i>2</span></button>
+        <button id ="hofuf" class="location-button">  <span>الأحساء </span> <span style="float: right; "> <i data-feather="map-pin"></i>3</span></button>
+		               		
+              <h2 style="float:right;"> ساعة </h2>
+              <br><p>
+        <h2  class="tvClock"></h2>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+
+  
+<!-- partial -->
+    <script src="js/main.js"></script>
+</body>
+</html>
