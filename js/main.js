@@ -40,7 +40,7 @@ window.onload = function() {
 	 var temprature =  the_data['current']['temp_c'];
 	 var humidity =  the_data['current']['humidity'];
 
-	var todaysDate = `<div class="arabicDateBox"> <div class="monthYear"> + `+ date.getFullYear() + `</div> ` + `<div class="monthText">` + months[date.getMonth()] + ` </div>`  +  `<div class="dayofmonth"> ` + date.getDate() + `</div> </div>`;
+	var todaysDate = `<div class="arabicDateBox"> <div class="monthYear"> `+ date.getFullYear() + `</div> ` + `<div class="monthText">` + months[date.getMonth()] + ` </div>`  +  `<div class="dayofmonth"> ` + date.getDate() + `</div> </div>`;
 
 
 	document.querySelector(".date-dayname").innerHTML = days[date.getDay()];
