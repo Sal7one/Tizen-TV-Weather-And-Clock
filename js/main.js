@@ -100,6 +100,9 @@ window.onload = function() {
     		  h = h-12;
     	  daytime = "مساءً";
     	  }
+	    if(h == 0){
+	    h = 12;
+	    }
     	  
     	  document.querySelector(".tvClock").innerHTML =  h + ":" + m + ":" + s +" " +daytime;
     	  setTimeout(startTime, 1000);
