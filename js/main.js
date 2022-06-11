@@ -10,7 +10,7 @@ window.onload = function() {
 	 var chosenCity = "الأحساء";
 
 	 var riyadhLink = "https://api.weatherapi.com/v1/current.json?key=YOURAPIKEY&q=Riyadh&aqi=no&lang=ar";
-	 var khobarLink = "https://api.weatherapi.com/v1/current.json?key=YOURAPIKEY&q=Riyadh&aqi=no&lang=ar";
+	 var khobarLink = "https://api.weatherapi.com/v1/current.json?key=YOURAPIKEY&q=Khobar&aqi=no&lang=ar";
 	 var hofufLink = "https://api.weatherapi.com/v1/current.json?key=YOURAPIKEY&q=Hofuf&aqi=no&lang=ar";
 
 	// Deafult 
